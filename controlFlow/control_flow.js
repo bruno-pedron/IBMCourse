@@ -39,3 +39,16 @@ console.log("User Category:", userCategory);
 let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 console.log("Authentication Status:", authenticationStatus);
+let UserTipo = prompt("Digite sua funcao:");
+let Dieta;
+if (UserTipo = "Employe") {
+    Dieta = "access to Dietary Services";
+} else if (UserTipo = "Enrolled Member") {
+    Dieta = "access to Dietary Services and one-on-one interaction with a dietician";
+} else if (UserTipo = "Subscriber") {
+    Dieta = "partial access to facilitate Dietary Services only";
+} else {
+    UserTipo = Non-Subscriber;
+    Dieta = "need to enroll or at least subscribe first to avail this facility";
+}
+console.log(Dieta)
